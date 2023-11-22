@@ -35,6 +35,18 @@ ul{
     top: 25px;
 }
 
+h1{
+    font-weight: 900;
+    font-size: 32px;
+    color: yellow;
+}
+
+/* utili */
+
+.container{
+    text-align: center;
+}
+
 /* intestazione */
 
 .navbar{
@@ -44,4 +56,11 @@ ul{
     left: 0;
     right: 0;
     top: 0;
+}
+
+/* prima sezione */
+
+.red{
+    background-color: red;
+    height: 100vh;
 }
