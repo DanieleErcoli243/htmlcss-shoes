@@ -10,6 +10,15 @@
 
 /* generici */
 
+body{
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
 li{
     list-style-type: none;
     display: inline;
@@ -35,16 +44,24 @@ ul{
     top: 25px;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
     font-weight: 900;
     font-size: 32px;
     color: yellow;
 }
 
+
 /* utili */
 
 .container{
     text-align: center;
+    max-width: 900px;
 }
 
 /* intestazione */
@@ -60,7 +77,40 @@ h1{
 
 /* prima sezione */
 
-.red{
+#up{
     background-color: red;
     height: 100vh;
+}
+
+.upper{
+    width: 600px;
+    display:block;
+}
+
+/* seconda sezione */
+
+#middle{
+    background-color: green;
+    height: 100vh;
+}
+
+.center{
+    width: 600px;
+}
+
+/* terza sezione */
+
+#down{
+    background-color: yellow;
+    height: 100vh;
+}
+
+.lower{
+    width: 650px;
+}
+
+.y-title{
+    font-weight: 900;
+    font-size: 32px;
+    color: green;
 }
