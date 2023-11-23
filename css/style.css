@@ -36,6 +36,7 @@ a{
     font-weight: bold;
     font-size: 14px;
     margin-left: 10px;
+    box-shadow: 0 3px 1px gray;
 }
 
 ul{
@@ -67,7 +68,7 @@ h1{
 /* intestazione */
 
 .navbar{
-    background-color: red;
+    background-color: transparent;
     height: 70px;
     position: fixed;
     left: 0;
