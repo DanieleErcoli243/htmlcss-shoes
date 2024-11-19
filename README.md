@@ -1,3 +1,7 @@
+Shoes
+This project is about navigating a page by clicking on anchor tags linked to the sections of the page. 
+Each section is as high as the viewport and shows a the picture of a couple of shoes with a slogan. The buttons on the top left of the page let you go straight to the section they're connected to with a little transition that smoothes the scroll.
+
 Ciao Ragazzi,
 Esercizio di oggi: Shoes
 cartella/repo htmlcss-shoes
